@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Blog | TS INFORMATICS</title>
+        <link rel="icon" href="logo.jpg" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md text-capitalize bg-dark " style="color: white; ">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="blog.html" style="font-size: 2rem; color: white;">&ensp;Home</a>
+                    </li>
+                   
+                </ul>
+            </div>
+           
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="color: white;">
+                <ul class="navbar-nav ml-auto" style="color: white;">
+                    <li class="nav-item" style="font-size: 2rem; color: white;">
+                        <a class="nav-link" href="blog.html" style="color: grey">Blog&ensp;</a>
+                    </li>
+                    <li class="nav-item" style="font-size: 2rem;">
+                        <a class="nav-link" href="index.html" style="color: white;">Chat Support&ensp;</a>
+                    </li>
+                    <li class="nav-item" style="font-size: 2rem;">
+                        <a class="nav-link" href="form.html" style="color: white;">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>  
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">TS INFORMATICS</h1>
+                <p class="main_heading__para">Welcome to our <span class="text-capitalize bg-dark text-white py-2 px-3"> world of blog</span> </p>
+            </div>
+        
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+               
+                
+                <h2 class="animateWord">
+                    
+                    <div>
+                        <!--        Use classes 2,3, or 4 to match the number of words -->
+                        <ul class="flip4">
+                            <li>50+ Technology Implementation Projects</li>
+                            <li>Digital Customer Engagements</li>
+                            <li>  Resource Tracking & Management through RFID</li>
+                            <li> Real time tracking & reporting solutions using GPS & GPRS technologies </li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase">subscribe</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">HYUNDAI i20 MALL ACTIVATION</h1>
+                                       </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/sj.jpg"class="img-fluid shadow" >
+                                    </figure>
+                                   <p>
+                                    Objective :
+                                    Leverage the Uber Life campaign for i20 & create an exciting on ground platform where mall visitors can click and share their pictures on Facebook realtime.<br>
+                                    Our Offerings:
+Facebook Photo booth  User Logs in with FB credentials & clicks his picture through the web cam integrated with the module.
+Photo is shared on his wall instantly via the FB app with a customised message as status update.
+Visitor could see his picture on the big display added to the i20 shaped collage made from all pictures clicked on that particular site.
+
+Event was run simultaneously across six major malls spread over different cities.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="./images/mz.jpg" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Thapa, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">INNOVATION IN CUSTOMER EXPERIENCE</h1>
+                                       </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/mz.jpg" class="img-fluid shadow">
+                                    </figure>
+                                   <p>
+                                    As marketers we had been devising new and innovative ways of customer engagements. The latest in the bag of tricks is the “Digital Media” which includes social media like Facebook and Twitter. Softwares and other high-end technologies have always been used for critical applications, but rarely as a marketing tool for customer engagement.
+
+                                    The team at TS analyzed these technologies and found them just apt for creating a great customer experience and engagement. Just imagine, if you go to buy a car, scan the car with your smartphone and all the features of the car and the competing cars information comes to your cell phone or mailed to you. Imagine driving the car without actually stepping into it.
+                                    
+                                    Another interesting scenario, just imagine how the dress or jewellery that you just selected would look on you without actually trying them. In an in-store environment just click on an exotic vegetable or meat and you would see the recipes pop up on your mobile phone.
+                                        </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Vinod, </span> Aug 11, 2020, 7:20 PM </p>
+                                                <p>I really like the way you teach. Subscribed :)</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Thapa, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">AUGMENTED REALITY IN MARKETING CAMPAIGNS </h1>
+                                       </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/thapa.jpg" class="img-fluid shadow">
+                                    </figure>
+                                     <p>
+                                        Augmented Reality is here real time and can be leveraged in marketing and promotional campaigns. We are experimenting with a lot of concepts and the prospects look exciting.
+
+                                        Working on projects for point of sale at modern trade, mall activations and exhibitions, FireArc intends to take digital marketing to a new experience level altogether.
+                                        
+                                        If you need a great concept for Augmented Reality and need to plan in advance as the development takes time and at times synchronization and rehearsals also take some time. We look forward to some ground breaking work in Augmented Reality soon.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                                                          </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                        <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                            <div class="row gy-5 left_div__blog">
+                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>CONTACT US</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                     <H3> <B> TS Informatics Pvt. Ltd.<BR></B>
+    S-214, Vardhman Sunrise Plaza,
+    LSC Vasundhara Enclave
+    Delhi, Pin Code- 110096, India<br><BR>
+ Phone: +91 011 43053094<BR>
+ Phone: +91 9312216451<BR>
+ Email: info@tsinformatics.com</H3>
+                                    </div>
+                                </div>
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow us</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="https://www.instagram.com/vinodthapa55/" target="_thapa"> <i class="fab fa-3x fa-instagram"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "thapa_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(thapa_show);
+            } else if (res.className == 'thapa_show') {
+                // res.className = " ";
+                console.log('thapa show');
+                res.className = "replies";
+            }
+        }
+        </script>
+    </body>
+
+</html>

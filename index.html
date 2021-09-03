@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chatbot</title>
+	<link rel="icon" href="logo.jpg" />
+	<link rel="stylesheet" href="stylebot.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md text-capitalize bg-dark " style="color: white; ">
+		<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="blog.html" style="font-size: 2rem; color: white;">&ensp;Home</a>
+				</li>
+			   
+			</ul>
+		</div>
+	   
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" style="color: white;">
+			<ul class="navbar-nav ml-auto" style="color: white;">
+				<li class="nav-item" style="font-size: 2rem; color: white;">
+					<a class="nav-link" href="blog.html" style="color: white;">Blog&ensp;</a>
+				</li>
+				<li class="nav-item" style="font-size: 2rem;">
+					<a class="nav-link" href="index.html" style="color: grey">Chat Support&ensp;</a>
+				</li>
+				<li class="nav-item" style="font-size: 2rem;">
+					<a class="nav-link" href="form.html" style="color: white;">Feedback</a>
+				</li>
+			</ul>
+		</div>
+	</nav>  
+	<div id="container" class="container">
+		<div class="d-flex justify-content-center align-items-center flex-column py-5">
+			<h3 class="text-uppercase main_heading">TS INFORMATICS</h3>
+			<p class="main_heading__para">ChatBot Support</p>
+		</div>
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+		</div>
+		<img src="bot1.png" alt="Robot cartoon" height="200vh">
+	</div>
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+
+</html>
